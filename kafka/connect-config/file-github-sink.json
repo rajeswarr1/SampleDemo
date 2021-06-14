@@ -1,0 +1,9 @@
+{
+    "connector.class": "org.apache.kafka.connect.file.FileStreamSinkConnector",
+    "first.required.param": "Kafka",
+    "second.required.param": "Connect",
+    "tasks.max": "1",
+    "topics": "file.github.stream.topic",
+    "name": "file-github-sink",
+    "file": ""
+}
